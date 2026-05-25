@@ -1,0 +1,18 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/.data/
+*.pyc
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+
+# Local design artifacts
+.docx_extract/
+Screen shots Nicotex App.zip
+
+# OS
+.DS_Store
+Thumbs.db
+
