@@ -7,6 +7,8 @@ import Profile from "./pages/Profile";
 import TaskDetail from "./pages/TaskDetail";
 import ContentDetail from "./pages/ContentDetail";
 import Reflection from "./pages/Reflection";
+import Assessment from "./pages/Assessment";
+import OralScreening from "./pages/OralScreening";
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
       <Route element={<MobileLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="/journey" element={<Journey />} />
+        <Route path="/assessment" element={<Assessment />} />
+        <Route path="/screening" element={<OralScreening />} />
         <Route path="/task/:taskId" element={<TaskDetail />} />
         <Route path="/content/:contentId" element={<ContentDetail />} />
         <Route path="/reflection" element={<Reflection />} />
